@@ -1,4 +1,4 @@
-package com.southsystem.fileprocessor.config;
+package com.southsystem.filepublisher.config;
 
 import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.messaging.MessageChannel;

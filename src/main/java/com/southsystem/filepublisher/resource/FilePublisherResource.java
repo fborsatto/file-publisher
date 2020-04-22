@@ -1,6 +1,6 @@
-package com.southsystem.fileprocessor.resource;
+package com.southsystem.filepublisher.resource;
 
-import com.southsystem.fileprocessor.service.FilePublisherService;
+import com.southsystem.filepublisher.service.FilePublisherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;

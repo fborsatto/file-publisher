@@ -1,10 +1,10 @@
-package com.southsystem.fileprocessor;
+package com.southsystem.filepublisher;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FileProcessorApplicationTests {
+class FilePublisherApplicationTests {
 
 	@Test
 	void contextLoads() {

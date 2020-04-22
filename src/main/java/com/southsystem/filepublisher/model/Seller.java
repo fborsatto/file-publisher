@@ -1,4 +1,4 @@
-package com.southsystem.fileprocessor.model;
+package com.southsystem.filepublisher.model;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

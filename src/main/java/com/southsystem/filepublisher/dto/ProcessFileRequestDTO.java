@@ -1,4 +1,4 @@
-package com.southsystem.fileprocessor.dto;
+package com.southsystem.filepublisher.dto;
 
 import java.io.Serializable;
 import java.util.List;

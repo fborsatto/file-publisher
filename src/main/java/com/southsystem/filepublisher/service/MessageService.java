@@ -1,11 +1,9 @@
-package com.southsystem.fileprocessor.service;
+package com.southsystem.filepublisher.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.southsystem.fileprocessor.config.BrokerOutput;
-import com.southsystem.fileprocessor.dto.ProcessFileRequestDTO;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.southsystem.filepublisher.config.BrokerOutput;
+import com.southsystem.filepublisher.dto.ProcessFileRequestDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.Message;
 import org.springframework.messaging.support.MessageBuilder;
