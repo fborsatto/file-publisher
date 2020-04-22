@@ -24,7 +24,7 @@ public class FilePublisherService {
     @Autowired
     MessageService messageService;
 
-    public Void readDirectory() {
+    public String readDirectory() {
         String inPath = System.getProperty("user.home") + processorConfig.getInDirPath();
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(Paths.get(inPath), entry -> !Files.isDirectory(entry) && entry.getFileName().toString().endsWith(".dat"))) {
             stream.forEach(path -> {
@@ -46,6 +46,6 @@ public class FilePublisherService {
             readDirectory();
         }, 10, TimeUnit.SECONDS);
 
-        return null;
+        return "Folder scan is running";
     }
 }

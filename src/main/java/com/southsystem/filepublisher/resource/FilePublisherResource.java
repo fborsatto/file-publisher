@@ -18,7 +18,7 @@ public class FilePublisherResource {
 
     @ResponseStatus(HttpStatus.OK)
     @GetMapping(value = "/start")
-    public Mono<Void> start() {
+    public Mono<String> start() {
         return Mono.just(service.readDirectory());
     }
 }
